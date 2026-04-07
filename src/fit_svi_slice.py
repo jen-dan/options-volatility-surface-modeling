@@ -63,7 +63,7 @@ print(f"m     = {m:.8f}")
 print(f"sigma = {sigma:.8f}")
 
 df["w_svi"] = svi_raw(df["k"], a, b, rho, m, sigma)
-df["iv_svi_decimal"] = np.sqrt(df["w_svi"] / df["T"])
+df["iv_svi_decimal"] = np.sqrt(np.maximum(df["w_svi"], 0) / df["T"])
 df["iv_svi_pct"] = df["iv_svi_decimal"] * 100.0
 
 # save params

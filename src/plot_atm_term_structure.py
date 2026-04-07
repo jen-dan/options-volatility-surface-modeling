@@ -6,7 +6,7 @@ PROCESSED_DIR = Path("data/processed")
 OUTPUTS_DIR = Path("outputs")
 OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
 
-options_path = PROCESSED_DIR / "spy_options_clean.csv"
+options_path = PROCESSED_DIR / "spy_options_all_clean.csv"
 df = pd.read_csv(options_path)
 
 # типы
