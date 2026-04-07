@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/
+data/processed/
+
+# Raw market data
+data/raw/
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
