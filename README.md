@@ -32,19 +32,19 @@ The workflow covers:
 ## Example Outputs
 
 ### Volatility Smile (Nearest Expiry)
-![Nearest Expiry Smile](outputs/spy_smile_nearest_expiry.png)
+![Nearest Expiry Smile](assets/spy_smile_nearest_expiry.png)
 
 ### ATM Term Structure
-![ATM Term Structure](outputs/spy_atm_term_structure.png)
+![ATM Term Structure](assets/spy_atm_term_structure.png)
 
 ### Smiles Across Expiries
-![Smiles Across Expiries](outputs/spy_multi_smiles.png)
+![Smiles Across Expiries](assets/spy_multi_smiles.png)
 
 ### SVI Fit Error Across Expiries
-![SVI Fit Error](outputs/svi_fit_error_across_expiries_aggregated.png)
+![SVI Fit Error](assets/svi_fit_error_across_expiries_aggregated.png)
 
 ### SVI Fit vs Market IV
-![SVI vs Market](outputs/svi_fit_vs_market_aggregated_2026-05-15.png)
+![SVI vs Market](assets/svi_fit_vs_market_aggregated_2026-05-15.png)
 
 ## Methodology
 
