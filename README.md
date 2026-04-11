@@ -72,9 +72,9 @@ The cleaned data is used to study:
 ### 4. Raw SVI Calibration
 For each expiry slice, the project transforms market IV into total variance:
 
-- \( T = \text{days to expiry} / 365 \)
-- \( k = \ln(K/F) \)
-- \( w = \sigma^2 T \)
+- `T = days_to_expiry / 365`
+- `k = ln(K / F)`
+- `w = sigma^2 * T`
 
 Raw SVI parameters are then calibrated with `scipy.optimize.minimize` using the L-BFGS-B algorithm.
 
